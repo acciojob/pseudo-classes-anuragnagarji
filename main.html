@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    :root{ background-color: rgb(135, 206, 235);
+        }
+        p:first-child{
+            color: white;background-color: black;
+        }
+        p:nth-child(2){ color:black;}
+        p:last-child{
+            color:red;
+            
+        }
+
+li{
+    width: 50%;padding: 10px;
+    background-color: gray;
+}
+li:nth-child(odd){
+    background-color: white;
+}
+li:first-child{
+    font-size:22px ;
+}
+li:last-child{
+    font-size:22px ;
+}
+li:nth-last-child(3){
+    background-color: pink;
+}
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <p>First Paragraph...</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis fugit mollitia ab sapiente deleniti nam saepe tempora sint eius.</p>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero tempora ex quam inventore quibusdam? Temporibus laboriosam hic voluptatum impedit nisi ducimus maiores facere, earum adipisci beatae! Rerum distinctio ipsum officiis?</p>
+     <ul>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+    <li>Fourth Item</li>
+    <li>Fifth Item</li>
+</ul>
 
-</body>
-
+    </body>
 </html>
